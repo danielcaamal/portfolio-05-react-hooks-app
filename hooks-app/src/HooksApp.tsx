@@ -7,12 +7,13 @@ import { CallbackHook } from "./06-useMemo/CallbackHook";
 import { MemoHook } from "./06-useMemo/MemoHook";
 import { Memorize } from "./06-useMemo/Memorize";
 import { Parent } from "./07-tarea-memo/Parent";
+import { TodoApp } from "./08-useReducer/TodoApp";
 
 export const HooksApp = () => {
     return (
         <div>
             <h1>Hooks App</h1>
-            <Parent />
+            <TodoApp />
         </div>
     );
 }
