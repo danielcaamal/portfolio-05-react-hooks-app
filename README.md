@@ -14,7 +14,13 @@ Simple React Hooks App using Vite + React + Typescript
     - useCounter
     - useForm
     - useTodo
-
+- context
+- provider
+- useContext
+- react router
+- links and routes
+- create context
+- SPA
 
 # Installation
 ```

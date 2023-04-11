@@ -5,3 +5,7 @@ body {
 button {
     margin-top: 10px;
 }
+
+a {
+    margin: 0px 2.5px;
+}
