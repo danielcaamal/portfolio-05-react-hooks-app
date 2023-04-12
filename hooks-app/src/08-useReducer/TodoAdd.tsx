@@ -29,8 +29,11 @@ export const TodoAdd = ({ onNewTodo }: { onNewTodo: (todo:TodoInterface) => void
 
     return (
         <>
-            <form onSubmit={(e) => onSubmit(e)}>
+            <form
+                id="todo-add-form" 
+                onSubmit={(e) => onSubmit(e)}>
                 <input
+                    id="todo-add-input"
                     type="text"
                     name="description"
                     className="form-control"
@@ -40,6 +43,7 @@ export const TodoAdd = ({ onNewTodo }: { onNewTodo: (todo:TodoInterface) => void
                     value={description}
                 />
                 <button
+                    id="todo-add-button"
                     type="submit"
                     className="btn btn-outline-primary mt-1 btn-block"
                     >Add

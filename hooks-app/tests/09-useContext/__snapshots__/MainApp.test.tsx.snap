@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainApp should render 1`] = `
+<div>
+  <nav
+    class="navbar navbar-expand-lg navbar-dark bg-dark rounded-3"
+  >
+    <div
+      class="container-fluid"
+    >
+      <a
+        class="navbar-brand"
+        href="/"
+      >
+        UseContext
+      </a>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarNavAltMarkup"
+      >
+        <div
+          class="navbar-nav"
+        >
+          <a
+            aria-current="page"
+            class="nav-item nav-link active"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="nav-item nav-link false"
+            href="/login"
+          >
+            Login
+          </a>
+          <a
+            class="nav-item nav-link false"
+            href="/about"
+          >
+            About
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <hr />
+  <h1
+    id="home-page-title"
+  >
+    HomePage: 
+  </h1>
+  <hr />
+  <pre
+    id="home-page-pre"
+  >
+    {}
+  </pre>
+  <button
+    class="btn btn-primary"
+    id="home-page-button"
+    type="button"
+  >
+    Set User
+  </button>
+</div>
+`;
+
+exports[`MainApp should show HomePage 1`] = `
+<div>
+  <nav
+    class="navbar navbar-expand-lg navbar-dark bg-dark rounded-3"
+  >
+    <div
+      class="container-fluid"
+    >
+      <a
+        class="navbar-brand"
+        href="/"
+      >
+        UseContext
+      </a>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarNavAltMarkup"
+      >
+        <div
+          class="navbar-nav"
+        >
+          <a
+            aria-current="page"
+            class="nav-item nav-link active"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="nav-item nav-link false"
+            href="/login"
+          >
+            Login
+          </a>
+          <a
+            class="nav-item nav-link false"
+            href="/about"
+          >
+            About
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <hr />
+  <h1
+    id="home-page-title"
+  >
+    HomePage: 
+  </h1>
+  <hr />
+  <pre
+    id="home-page-pre"
+  >
+    {}
+  </pre>
+  <button
+    class="btn btn-primary"
+    id="home-page-button"
+    type="button"
+  >
+    Set User
+  </button>
+</div>
+`;
+
+exports[`MainApp should show LoginPage 1`] = `
+<div>
+  <nav
+    class="navbar navbar-expand-lg navbar-dark bg-dark rounded-3"
+  >
+    <div
+      class="container-fluid"
+    >
+      <a
+        class="navbar-brand"
+        href="/"
+      >
+        UseContext
+      </a>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarNavAltMarkup"
+      >
+        <div
+          class="navbar-nav"
+        >
+          <a
+            class="nav-item nav-link false"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            aria-current="page"
+            class="nav-item nav-link active"
+            href="/login"
+          >
+            Login
+          </a>
+          <a
+            class="nav-item nav-link false"
+            href="/about"
+          >
+            About
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <hr />
+  <h1
+    id="login-page-title"
+  >
+    LoginPage
+  </h1>
+  <hr />
+  <pre>
+    {}
+  </pre>
+</div>
+`;

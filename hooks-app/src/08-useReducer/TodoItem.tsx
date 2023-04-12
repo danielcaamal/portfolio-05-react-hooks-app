@@ -10,10 +10,12 @@ export const TodoItem = (
     return (
         <>
             <span 
+                id="todo-item-description"
                 className={`align-self-center ${todo.done && 'text-decoration-line-through'}`}
                 onDoubleClick={() => onToggleTodo(todo.id)}
                 >{todo.description}</span>
             <button
+                id="todo-item-delete-button"
                 className="btn btn-danger"
                 type="button"
                 onClick={() => onDeleteTodo(todo.id)}

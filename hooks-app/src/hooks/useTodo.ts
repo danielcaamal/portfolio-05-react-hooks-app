@@ -17,7 +17,6 @@ export const useTodo = () => {
     }, [todos]);
 
     const handleNewTodo = (newTodo: TodoInterface) => {
-        console.log(newTodo);
         const action = {
             type: 'add',
             payload: newTodo

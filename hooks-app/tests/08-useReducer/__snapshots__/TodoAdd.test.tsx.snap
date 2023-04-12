@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoAdd should match with snapshot 1`] = `
+<div>
+  <form
+    id="todo-add-form"
+  >
+    <input
+      autocomplete="off"
+      class="form-control"
+      id="todo-add-input"
+      name="description"
+      placeholder="Learn..."
+      type="text"
+      value=""
+    />
+    <button
+      class="btn btn-outline-primary mt-1 btn-block"
+      id="todo-add-button"
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+</div>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage should render 1`] = `
+<div>
+  <h1
+    id="home-page-title"
+  >
+    HomePage: 
+  </h1>
+  <hr />
+  <pre
+    id="home-page-pre"
+  >
+    null
+  </pre>
+  <button
+    class="btn btn-primary"
+    id="home-page-button"
+    type="button"
+  >
+    Set User
+  </button>
+</div>
+`;
+
+exports[`HomePage should render with user 1`] = `
+<div>
+  <h1
+    id="home-page-title"
+  >
+    HomePage: 
+    John
+  </h1>
+  <hr />
+  <pre
+    id="home-page-pre"
+  >
+    {
+   "name": "John"
+}
+  </pre>
+  <button
+    class="btn btn-primary"
+    id="home-page-button"
+    type="button"
+  >
+    Set User
+  </button>
+</div>
+`;

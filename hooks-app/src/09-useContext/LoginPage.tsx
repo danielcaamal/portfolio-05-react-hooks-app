@@ -8,7 +8,9 @@ export const LoginPage = () => {
 
     return (
         <>
-            <h1>LoginPage</h1>
+            <h1
+                id='login-page-title'
+                >LoginPage</h1>
             <hr />
 
             <pre>

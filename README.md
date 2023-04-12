@@ -21,6 +21,7 @@ Simple React Hooks App using Vite + React + Typescript
 - links and routes
 - create context
 - SPA
+- jest hooks
 
 # Installation
 ```

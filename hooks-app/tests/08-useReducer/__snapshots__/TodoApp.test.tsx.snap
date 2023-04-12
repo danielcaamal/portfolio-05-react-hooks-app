@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoApp should match with snapshot 1`] = `
+<div>
+  <h1>
+    TodoApp: 
+    2
+    , 
+    <small>
+      pendings: 
+    </small>
+    2
+  </h1>
+  <hr />
+  <div
+    class="row"
+  >
+    <div
+      class="col-7"
+    >
+      <h4>
+        Todos
+      </h4>
+      <hr />
+      <ul
+        class="list-group"
+      >
+        <li
+          class="list-group-item d-flex justify-content-between"
+        >
+          <span
+            class="align-self-center false"
+            id="todo-item-description"
+          >
+            Learn React
+          </span>
+          <button
+            class="btn btn-danger"
+            id="todo-item-delete-button"
+            type="button"
+          >
+            Delete
+          </button>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between"
+        >
+          <span
+            class="align-self-center false"
+            id="todo-item-description"
+          >
+            Learn Mongo
+          </span>
+          <button
+            class="btn btn-danger"
+            id="todo-item-delete-button"
+            type="button"
+          >
+            Delete
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="col-5"
+    >
+      <h4>
+        Add Todo
+      </h4>
+      <hr />
+      <form
+        id="todo-add-form"
+      >
+        <input
+          autocomplete="off"
+          class="form-control"
+          id="todo-add-input"
+          name="description"
+          placeholder="Learn..."
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-outline-primary mt-1 btn-block"
+          id="todo-add-button"
+          type="submit"
+        >
+          Add
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
